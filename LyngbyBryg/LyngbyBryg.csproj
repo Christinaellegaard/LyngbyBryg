@@ -89,6 +89,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="content\bootstrap.css" />
+    <Content Include="content\bootstrap.min.css" />
+    <Content Include="content\CSS\bootstrap-grid.css" />
+    <Content Include="content\CSS\bootstrap-grid.min.css" />
+    <Content Include="content\CSS\bootstrap-reboot.css" />
+    <Content Include="content\CSS\bootstrap-reboot.min.css" />
+    <Content Include="content\CSS\bootstrap.css" />
+    <Content Include="content\CSS\bootstrap.min.css" />
+    <Content Include="content\Scripts\bootstrap.bundle.js" />
+    <Content Include="content\Scripts\bootstrap.bundle.min.js" />
+    <Content Include="content\Scripts\bootstrap.js" />
+    <Content Include="content\Scripts\bootstrap.min.js" />
+    <Content Include="content\Site.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="LyngbyBryghus.csproj" />
     <Content Include="LyngbyBryghus.csproj.user" />
@@ -96,14 +110,32 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModels\BestillingOptions.cs" />
+    <Compile Include="ViewModels\ForsideOptions.cs" />
+    <Compile Include="ViewModels\KontaktOptions.cs" />
+    <Compile Include="ViewModels\NyhederOptions.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
     <Content Include="packages.config" />
+    <Content Include="content\CSS\bootstrap-grid.css.map" />
+    <Content Include="content\CSS\bootstrap-grid.min.css.map" />
+    <Content Include="content\CSS\bootstrap-reboot.css.map" />
+    <Content Include="content\CSS\bootstrap-reboot.min.css.map" />
+    <Content Include="content\CSS\bootstrap.css.map" />
+    <Content Include="content\CSS\bootstrap.min.css.map" />
+    <Content Include="content\Scripts\bootstrap.bundle.js.map" />
+    <Content Include="content\Scripts\bootstrap.bundle.min.js.map" />
+    <Content Include="content\Scripts\bootstrap.js.map" />
+    <Content Include="content\Scripts\bootstrap.min.js.map" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -113,11 +145,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="content\" />
-    <Folder Include="Controllers\" />
-    <Folder Include="fonts\" />
+    <Folder Include="content\Images\Generelt\" />
+    <Folder Include="content\Images\Produkter\" />
     <Folder Include="Models\" />
-    <Folder Include="ViewModels\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
